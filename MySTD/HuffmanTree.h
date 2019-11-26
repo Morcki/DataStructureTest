@@ -3,7 +3,7 @@
 #define HUFFMANTREE_H
 #include <queue>
 using namespace std;
-template<class T,typename Tw=double>
+template<class T,typename Tw>
 class HMnode
 {
 public:
@@ -25,7 +25,7 @@ public:
 	}
 };
 
-template<class T,typename Tw=double>
+template<class T,typename Tw=int>
 class LinkHM
 {
 public:
@@ -77,7 +77,7 @@ void LinkHM<T, Tw>::creat(T * value, Tw * w, int n)
 }
 
 template<class T, typename Tw>
-inline Tw LinkHM<T, Tw>::WPL()
+Tw LinkHM<T, Tw>::WPL()
 {
 	int h = -1;
 	Tw wpl = 0;
