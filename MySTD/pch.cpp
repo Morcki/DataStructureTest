@@ -187,9 +187,9 @@ void Test::huffmantreeTest()
 	*/
 	printf("Huffman Tree Test Workplace:\n");
 	printf("============================\n");
-	int v[5] = { 1,2,2,3,6 };
+	int v[5] = { 2,3,6,1,2 };
 	char tag[] = "ABCDE";
-	LinkHM<char, int>* hm = new LinkHM<char,int>();
+	LinkHM<char>* hm = new LinkHM<char>();
 	hm->creat(tag, v, 5);
 	printf("WPL : %d\n", hm->WPL());
 	printf("============================\n");
