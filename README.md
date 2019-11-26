@@ -2,6 +2,7 @@
 
 ## 1. Hannota Test Workplace:
 =======================
+
 Plates Numbers : 4
 A->B : 1
 A->C : 2
@@ -22,6 +23,7 @@ B->C : 1
 =======================
 ## 2.Linked-deque Test Workplack:
 ============================
+
 Deque Size             : 6
 Deque front node value : 14.300000
 Deque back node value  : -5.000000
@@ -33,6 +35,9 @@ Deque reverse order     :
 ============================
 ## 3.Linked Binary Search Tree Test Workplack:
 =========================================
+
+
+
 Tree Height : 5
 preorder:
 5 3 1 0 2 4 7 6 8 9 10
@@ -48,6 +53,9 @@ Depth-first traversal:
 =========================================
 ## 4.Huffman Tree Test Workplace:
 ============================
+
+
+
 WPL : 30
 
 ============================
