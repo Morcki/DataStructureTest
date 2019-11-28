@@ -9,4 +9,5 @@ int main()
 	t.linkdequeTest();
 	t.linkbintreeTest();
 	t.huffmantreeTest();
+	t.heapTest();
 }

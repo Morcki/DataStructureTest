@@ -194,3 +194,21 @@ void Test::huffmantreeTest()
 	printf("WPL : %d\n", hm->WPL());
 	printf("============================\n");
 }
+
+void Test::heapTest()
+{
+	printf("Heap Test Workplace:\n");
+	printf("====================\n");
+	int a[] = { 10,1,13,12,16,18,15,17,14,19 };
+	ArrHeap<int> ah(a,10);
+	ah.push(15);
+	printf("Heap Size : %d\n", ah.size());
+	printf("Heap Top  : %d\n", ah.top());
+	printf("Heap Content : \n");
+	while (!ah.empty())
+	{
+		printf("%d ", ah.top());
+		ah.pop();
+	}
+	printf("\n====================\n");
+}
