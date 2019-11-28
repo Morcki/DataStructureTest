@@ -89,3 +89,15 @@ Depth-first traversal:
 WPL : 30  
 
 ============================
+## 5.Heap Test Workplace:
+====================
+
+Heap Size : 11
+
+Heap Top  : 1
+
+Heap Content :
+
+1 10 12 13 14 15 15 16 17 18 19
+
+====================
