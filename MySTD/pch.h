@@ -14,6 +14,7 @@
 #include "LinkDeque.h"
 #include "LinkBinTree.h"
 #include "HuffmanTree.h"
+#include "ArrHeap.h"
 // TODO: add headers that you want to pre-compile here
 class Hannota {
 public:
@@ -34,6 +35,7 @@ public:
 	void linkdequeTest();
 	void linkbintreeTest();
 	void huffmantreeTest();
+	void heapTest();
 };
 
 
