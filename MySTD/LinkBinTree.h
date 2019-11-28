@@ -127,7 +127,7 @@ int LinkBinTree<T>::treeheight()
 	}
 }
 template<class T>
-int LinkBinTree<T>::getTreeHeight() { // using wideorder search
+int LinkBinTree<T>::getTreeHeight() { // using breadth-first traversal
 	int height = 0;
 	bool ldeep = 0;
 	if (!root) {
